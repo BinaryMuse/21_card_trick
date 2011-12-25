@@ -1,5 +1,3 @@
-require 'deck'
-
 class Trick
   attr_reader :deck
 

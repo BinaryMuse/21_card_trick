@@ -1,4 +1,3 @@
-require 'trick'
 require 'stringio'
 
 class Magician

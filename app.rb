@@ -1,5 +1,7 @@
-$:.unshift File.expand_path('../lib', __FILE__)
+$LOAD_PATH.unshift File.expand_path('../lib', __FILE__)
 require 'magician'
+require 'trick'
+require 'deck'
 
 # Pick 21 random cards from a deck and set up the trick
 cards = Deck.new.shuffle!.pick(21)
