@@ -1,6 +1,6 @@
 require 'minitest/spec'
 require 'minitest/autorun'
-require 'deck.rb'
+require 'trick'
 
 describe Trick do
   before do

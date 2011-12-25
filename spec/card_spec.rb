@@ -1,6 +1,6 @@
 require 'minitest/spec'
 require 'minitest/autorun'
-require 'card.rb'
+require 'card'
 
 describe Card do
   describe "#constructor" do

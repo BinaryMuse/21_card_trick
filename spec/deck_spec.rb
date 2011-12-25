@@ -1,6 +1,6 @@
 require 'minitest/spec'
 require 'minitest/autorun'
-require 'deck.rb'
+require 'deck'
 
 describe Deck do
   describe "#constructor" do
