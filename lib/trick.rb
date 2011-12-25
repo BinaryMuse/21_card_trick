@@ -1,5 +1,5 @@
 require 'stringio'
-require 'cards'
+require 'deck'
 
 class Trick
   attr_reader :deck
